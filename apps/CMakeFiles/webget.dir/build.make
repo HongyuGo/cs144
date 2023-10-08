@@ -69,28 +69,28 @@ include CMakeFiles/webget.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/webget.dir/flags.make
 
-CMakeFiles/webget.dir/webget.o: CMakeFiles/webget.dir/flags.make
-CMakeFiles/webget.dir/webget.o: webget.cc
-CMakeFiles/webget.dir/webget.o: CMakeFiles/webget.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gao/minnow/apps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/webget.dir/webget.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/webget.dir/webget.o -MF CMakeFiles/webget.dir/webget.o.d -o CMakeFiles/webget.dir/webget.o -c /home/gao/minnow/apps/webget.cc
+CMakeFiles/webget.dir/webget.cc.o: CMakeFiles/webget.dir/flags.make
+CMakeFiles/webget.dir/webget.cc.o: webget.cc
+CMakeFiles/webget.dir/webget.cc.o: CMakeFiles/webget.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gao/minnow/apps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/webget.dir/webget.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/webget.dir/webget.cc.o -MF CMakeFiles/webget.dir/webget.cc.o.d -o CMakeFiles/webget.dir/webget.cc.o -c /home/gao/minnow/apps/webget.cc
 
-CMakeFiles/webget.dir/webget.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/webget.dir/webget.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gao/minnow/apps/webget.cc > CMakeFiles/webget.dir/webget.i
+CMakeFiles/webget.dir/webget.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/webget.dir/webget.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gao/minnow/apps/webget.cc > CMakeFiles/webget.dir/webget.cc.i
 
-CMakeFiles/webget.dir/webget.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/webget.dir/webget.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gao/minnow/apps/webget.cc -o CMakeFiles/webget.dir/webget.s
+CMakeFiles/webget.dir/webget.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/webget.dir/webget.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gao/minnow/apps/webget.cc -o CMakeFiles/webget.dir/webget.cc.s
 
 # Object files for target webget
 webget_OBJECTS = \
-"CMakeFiles/webget.dir/webget.o"
+"CMakeFiles/webget.dir/webget.cc.o"
 
 # External object files for target webget
 webget_EXTERNAL_OBJECTS =
 
-webget: CMakeFiles/webget.dir/webget.o
+webget: CMakeFiles/webget.dir/webget.cc.o
 webget: CMakeFiles/webget.dir/build.make
 webget: CMakeFiles/webget.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/gao/minnow/apps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable webget"

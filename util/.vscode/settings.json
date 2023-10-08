@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "stdexcept": "cpp",
-        "cerrno": "cpp"
+        "cerrno": "cpp",
+        "string_view": "cpp"
     }
 }

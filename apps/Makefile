@@ -129,20 +129,29 @@ webget/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/webget.dir/build.make CMakeFiles/webget.dir/build
 .PHONY : webget/fast
 
-# target to build an object file
-webget.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webget.dir/build.make CMakeFiles/webget.dir/webget.o
+webget.o: webget.cc.o
 .PHONY : webget.o
 
-# target to preprocess a source file
-webget.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webget.dir/build.make CMakeFiles/webget.dir/webget.i
+# target to build an object file
+webget.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/webget.dir/build.make CMakeFiles/webget.dir/webget.cc.o
+.PHONY : webget.cc.o
+
+webget.i: webget.cc.i
 .PHONY : webget.i
 
-# target to generate assembly for a file
-webget.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webget.dir/build.make CMakeFiles/webget.dir/webget.s
+# target to preprocess a source file
+webget.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/webget.dir/build.make CMakeFiles/webget.dir/webget.cc.i
+.PHONY : webget.cc.i
+
+webget.s: webget.cc.s
 .PHONY : webget.s
+
+# target to generate assembly for a file
+webget.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/webget.dir/build.make CMakeFiles/webget.dir/webget.cc.s
+.PHONY : webget.cc.s
 
 # Help Target
 help:

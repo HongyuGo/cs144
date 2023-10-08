@@ -36,7 +36,6 @@ int main( int argc, char* argv[] )
     if ( argc <= 0 ) {
       abort(); // For sticklers: don't try to access argv[0] if argc <= 0.
     }
-
     auto args = span( argv, argc );
 
     // The program takes two command-line arguments: the hostname and "path" part of the URL.

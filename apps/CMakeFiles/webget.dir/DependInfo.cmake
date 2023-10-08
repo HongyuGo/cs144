@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/gao/minnow/apps/webget.cc" "CMakeFiles/webget.dir/webget.o" "gcc" "CMakeFiles/webget.dir/webget.o.d"
+  "/home/gao/minnow/apps/webget.cc" "CMakeFiles/webget.dir/webget.cc.o" "gcc" "CMakeFiles/webget.dir/webget.cc.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

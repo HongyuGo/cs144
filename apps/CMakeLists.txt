@@ -1,7 +1,10 @@
+#cmake_minimum_required(VERSION 3.24)
+#project(my_project)
 macro(add_app exec_name)
   add_executable("${exec_name}" "${exec_name}.cc")
   target_link_libraries("${exec_name}" minnow_debug)
   target_link_libraries("${exec_name}" util_debug)
+  #target_link_libraries("${exec_name}" stdc++fs)
 endmacro(add_app)
 
 add_app(webget)

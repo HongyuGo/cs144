@@ -1,3 +1,6 @@
+#cmake_minimum_required(VERSION 3.24)
+#project(my_project)
+#add_executable(my_program ./byte_stream.cc ./byte_stream_helpers.cc)
 file(GLOB LIB_SOURCES "*.cc")
 
 add_library(minnow_debug STATIC ${LIB_SOURCES})

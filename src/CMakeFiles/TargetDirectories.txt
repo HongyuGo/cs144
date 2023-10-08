@@ -1,0 +1,6 @@
+/home/gao/minnow/src/CMakeFiles/my_program.dir
+/home/gao/minnow/src/CMakeFiles/minnow_debug.dir
+/home/gao/minnow/src/CMakeFiles/minnow_sanitized.dir
+/home/gao/minnow/src/CMakeFiles/minnow_optimized.dir
+/home/gao/minnow/src/CMakeFiles/edit_cache.dir
+/home/gao/minnow/src/CMakeFiles/rebuild_cache.dir
